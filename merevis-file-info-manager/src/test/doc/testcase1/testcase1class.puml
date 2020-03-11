@@ -1,0 +1,31 @@
+@startuml
+
+package aaa {
+    class AAA {
+        +a1: int
+        +a2: int
+        +a3: int[]
+        ~a4: double
+        -a5: BBB
+    }
+    package bbb {
+        class BBB {
+            # b(): int[]
+        }
+        package ccc {
+            class EEE
+        }
+
+        class CCC2
+
+        class CCC << (C,#FFB6C1) public >>
+        class DDD {
+            ~ d(): int
+            ~ ddd(int, double, BBB, int...): double
+        }
+    }
+}
+
+
+
+@enduml

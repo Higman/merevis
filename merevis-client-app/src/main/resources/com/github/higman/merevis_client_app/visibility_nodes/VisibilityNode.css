@@ -1,0 +1,15 @@
+.visibilityNode {
+    -fx-border-color: #a8a8a8;
+}
+
+.visibilityNode.nonVisible {
+    -fx-opacity: 0.4;
+}
+
+.visibilityNode.focusItem {
+    -fx-effect: dropshadow( three-pass-box , rgba(0, 13, 255, 0.9), 15, 0.0 , 0 , 0 );
+}
+
+.visibilityNode:hover {
+    -fx-effect: dropshadow( three-pass-box , rgba(0, 0, 0, 0.8), 5, 0.0 , 0 , 1 );
+}

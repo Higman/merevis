@@ -1,0 +1,5 @@
+rootProject.name = 'merevis'
+include 'merevis-core'
+include 'merevis-client-app'
+include 'merevis-file-info-manager'
+
